@@ -1,5 +1,5 @@
 const expertiseText = document.querySelector('.expertise');
-const expertises = ['Full Stack Developer', 'Backend Developer', 'BlockChain Developer', 'Software Engineer', "Challenge Resolver"];
+const expertises = ['Full Stack Developer', 'Backend Developer', 'Software Engineer', 'BlockChain Developer', "Challenge Resolver"];
 let index = 0;
 
 function changeExpertise() {
