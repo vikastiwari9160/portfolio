@@ -4,23 +4,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 
 <body>
-    <div class="wrapper">
-        <h1>Portfolio Update in Progress.<span class="dot">.</span></h1>
-        <p>Currently, the portfolio is not available as we are in the process of updating and refining it. We are
-            working to include our latest projects, achievements, and detailed case studies to better showcase our work.
-            We appreciate your patience and invite you to check back soon for an updated and comprehensive view of our
-            capabilities and accomplishments.</p>
-        <div class="icons">
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-youtube-play"></i></a>
-            <a href=""><i class="fa fa-paper-plane"></i></a>
+    <section class="landing">
+        <div class="landing-content">
+            <img src="assets/images/profile.jpg" alt="User Image" class="user-image">
+            <h1>Hello, I'm <span class="name">Vikas Tiwari</span></h1>
+            <h3 class="expertise"></h3>
         </div>
-    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            Hello, I’m Vikas Tiwari, a final-year B.Tech student at VIPS, GGSIP University, Delhi. My primary
+            focus is on web development and blockchain technology, with expertise in the MERN stack, and
+            have worked on projects like 'WebSnippet' and 'LetsCode,' an edtech platform. Additionally, I’ve
+            developed an Insurance Chain project based on the BSV blockchain, aimed at enhancing
+            transparency in claims transactions.
+        </p>
+        <p>
+            Alongside my development work, I’m also focusing on mastering Data Structures and
+            Algorithms to strengthen my problem-solving skills. I spend most of my time learning or
+            exploring new skills and technology 🧑‍💻. I’m eager to bring my expertise to a
+            product-based company and contribute to innovative solutions.
+        </p>
+    </section>
+
+    <!-- Education Section (Path View) -->
+    <section class="education">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <!-- Card 1 -->
+            <div class="education-card">
+                <img src="https://images.shiksha.com/mediadata/images/1695196014phpt1EASL.jpeg" alt="College Image"
+                    class="education-image">
+                <div class="card-content">
+                    <p class="year">2021-2025</p>
+                    <h3>B.Tech in IIoT</h3>
+                    <p>Vivekananda Institute of Professional Studies (GGSIPU)</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="education-card">
+                <img src="https://raghavfoundation.org.in/wp-content/uploads/2022/07/schools-750x420.jpg"
+                    alt="School Image" class="education-image">
+                <div class="card-content">
+                    <p class="year">2019-2020</p>
+                    <h3>10+2 in Non-Medical (PCM)</h3>
+                    <p>CBSE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skill Set Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+
+        <!-- Animated Logos Section -->
+        <div class="skills-logos">
+            <div class="logos-container">
+                <div class="logo-item">
+                    <img src="assets/images/java.png" alt="JAVA">
+                </div>
+                <div class="logo-item">
+                    <img src="assets/images/node-js.png" alt="NodeJs">
+                </div>
+                <div class="logo-item">
+                    <img src="assets/images/react.png" alt="React">
+                </div>
+                <div class="logo-item">
+                    <img src="assets/images/mysql.png" alt="MySQL">
+                </div>
+                <div class="logo-item">
+                    <img src="assets/images/python.png" alt="Python">
+                </div>
+                <div class="logo-item">
+                    <img src="assets/images/mongodb.png" alt="MongoDB">
+                </div>
+            </div>
+        </div>
+
+        <!-- Description Section -->
+        <div class="skills-description">
+            <h3>Skill Categories</h3>
+            <div class="description-grid">
+
+                <!-- Languages -->
+                <div class="description-card">
+                    <h4>Languages</h4>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <!-- Databases -->
+                <div class="description-card">
+                    <h4>Databases</h4>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+
+                <!-- Libraries & Frameworks -->
+                <div class="description-card">
+                    <h4>Libraries & Frameworks</h4>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Sveltekit</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="description-card">
+                    <h4>Soft Skills</h4>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Communication</li>
+                        <li>Adaptability</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Experience Section -->
+    <section class="experience">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+
+            <!-- Experience Card 1 -->
+            <div class="experience-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBAu4rTsgivzm23HzhClYOVfWGsgGreY9pA&s"
+                    alt="Full Stack Blockchain Developer" class="job-image">
+                <div class="card-content">
+                    <h3>Full Stack Blockchain Developer</h3>
+                    <p>TimeChain - Jan 2024 - Present</p>
+                    <p>Developed responsive web applications and improved UI/UX across platforms.</p>
+                </div>
+            </div>
+
+            <!-- Experience Card 2 -->
+            <div class="experience-card">
+                <img src="data:image/png;base64,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"
+                    alt="Backend Developer" class="job-image">
+                <div class="card-content">
+                    <h3>Full Stack Developer Trainee</h3>
+                    <p>BrainMentors - June 2023 - July 2023</p>
+                    <p>Built and maintained APIs using Node.js and MongoDB.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <img src="assets/images/Project1.png" alt="Project 1" class="project-image">
+                <div class="card-content">
+                    <h3>InsuranceChain</h3>
+                    <p>Insurance Chain is a cutting-edge insurance company that leverages blockchain technology to
+                        transform the way insurance claims are processed and settled. It leverages blockchain to improve
+                        transparency, efficiency, and trust in the insurance industry. </p>
+                    <div class="buttons">
+                        <a href="https://insurance-chain.vercel.app/" class="btn visit-btn">Visit</a>
+                        <a href="https://github.com/vikastiwari9160/InsuranceChain" class="btn github-btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <img src="assets/images/Project4.png" alt="Project 2" class="project-image">
+                <div class="card-content">
+                    <h3>TSOC Neucron Bank</h3>
+                    <p>TSOC Neucron Bank is a user-friendly website designed for managing your Neucron Wallet with ease.
+                        It offers a streamlined platform for performing various banking operations, including
+                        transactions, balance checks, and account management.</p>
+                    <div class="buttons">
+                        <a href="https://svelte-fullstack-vikas.vercel.app/" class="btn visit-btn">Visit</a>
+                        <a href="https://github.com/vikastiwari9160/Svelte-Fullstack-vikas"
+                            class="btn github-btn">GitHub</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card">
+                <img src="assets/images/Project2.png" alt="Project 2" class="project-image">
+                <div class="card-content">
+                    <h3>Visit</h3>
+                    <p>WebSnippet is a powerful tool designed to simplify and streamline URL management by providing
+                        a user-friendly URL shortening service.It is Built using Node.js, MongoDB, and EJS for
+                        minimizing lags.</p>
+                    <p style="color: red;">*The project can't run online due to its reliance on local MongoDB.
+                    </p>
+                    <div class="buttons">
+                        <a href="https://github.com/vikastiwari9160/WebSnippet" class="btn github-btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="project-card">
+                <img src="assets/images/Project3.png" alt="Project 2" class="project-image">
+                <div class="card-content">
+                    <h3>Today's Goal</h3>
+                    <p>Today's Goal is a handy Chrome extension designed to boost your productivity by organizing
+                        your tasks with ease. It allows you to set clear daily goals, track progress, and stay
+                        focused on what matters most. </p>
+                    <p style="color: red;">*This Chrome extension project is currently unpublished.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="btn github-btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Want to Connect Section -->
+    <section class="contact">
+        <h2>Want to Connect? Let's Connect!</h2>
+        <div class="contact-container">
+            <!-- Social Links Section -->
+            <div class="social-links">
+                <ul>
+                    <li><a href="mailto:email@example.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+                    </li>
+                    <li><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    </li>
+                    <li><a href="https://leetcode.com/" target="_blank"><i class="fas fa-code"></i> LeetCode</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Form Section -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
