@@ -7,4 +7,4 @@ function changeExpertise() {
     index = (index + 1) % expertises.length;
 }
 
-setInterval(changeExpertise, 3000);
+setInterval(changeExpertise, 2000);
